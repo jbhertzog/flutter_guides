@@ -1,0 +1,1 @@
+class InvalidModelException implements Exception {}
