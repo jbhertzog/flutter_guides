@@ -2,7 +2,7 @@
 A possible solution to implement a clean architecture design using BLoC
 
 ### What this sample app does:
-* Makes an API Call to retrieve some dummy data about some employees
+* Makes an [API Call](http://dummy.restapiexample.com/api/v1/employees) to retrieve some dummy data about some employees
 * Parses the result to a JSON model that we create
 * Sends the results back to our BLoC, which then gets used by the UI
 
