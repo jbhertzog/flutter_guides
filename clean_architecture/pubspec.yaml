@@ -10,12 +10,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
   cupertino_icons: ^1.0.2
   dartz: 0.10.0
+  dismissible_page: 0.6.4
   equatable: 2.0.3
   flutter_bloc: 7.3.0
+  flutter_svg: 0.22.0
   get_it: 7.2.0
   http: 0.13.4
+  loading_indicator: 3.0.2
 
 dev_dependencies:
   flutter_test:
@@ -26,3 +31,6 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+  assets:
+    - assets/lang/
+    - assets/icons/

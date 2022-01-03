@@ -1,0 +1,10 @@
+{
+  "clean_architecture": "Clean Architecture",
+  "employees": "従業員たち",
+  "employee": "従業員",
+  "name": "名前",
+  "age": "年",
+  "salary": "給料",
+  "search": "サーチ",
+  "no_results": "結果がありません"
+}

@@ -46,7 +46,7 @@ class EmployeeBloc extends Bloc<EmployeeEvents, EmployeeState> {
 
   @override
   Stream<EmployeeState> mapEventToState(EmployeeEvents event) async* {
-    if (event is EmployeeEvents) {
+    if (event is RetrieveEmployees) {
       yield RetrievingEmployeesFromServer(state);
       final failureOrEmployees = await _retrieveEmployeeDataFromServer(NoParams());
       yield failureOrEmployees.fold(

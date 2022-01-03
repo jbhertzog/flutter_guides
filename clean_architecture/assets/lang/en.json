@@ -1,0 +1,10 @@
+{
+  "clean_architecture": "Clean Architecture",
+  "employees": "Employees",
+  "employee": "Employee",
+  "name": "Name",
+  "age": "Age",
+  "salary": "Salary",
+  "search": "Search",
+  "no_results": "No Results"
+}

@@ -1,0 +1,25 @@
+<svg id="item-text-cross-deleate" xmlns="http://www.w3.org/2000/svg" width="140" height="140"
+    viewBox="0 0 140 140">
+    <path id="Path_10673" d="M0,0H140V140H0Z" fill="none" />
+    <path id="Path_10674" d="M0,0H140V140H0Z" fill="none" />
+    <path id="Path_10675"
+        d="M49.667,108h-17.5A29.167,29.167,0,0,1,3,78.833H3V32.167H3A29.167,29.167,0,0,1,32.167,3H78.833A29.167,29.167,0,0,1,108,32.167v17.5"
+        transform="translate(14.5 14.5)" fill="none" stroke="#a8c4d3" stroke-linecap="round"
+        stroke-linejoin="round" stroke-width="6" />
+    <line id="Line_68" x2="46.667" transform="translate(46.667 46.667)" fill="none" stroke="#a8c4d3"
+        stroke-linecap="round" stroke-linejoin="round" stroke-width="6" />
+    <line id="Line_69" x2="17.5" transform="translate(46.667 93.333)" fill="none" stroke="#a8c4d3"
+        stroke-linecap="round" stroke-linejoin="round" stroke-width="6" />
+    <circle id="Ellipse_103" cx="23.619" cy="23.619" r="23.619" transform="translate(81.095 81.095)"
+        stroke-width="6" stroke="#a8c4d3" stroke-linecap="round" stroke-linejoin="round"
+        fill="none" />
+    <path id="Path_10676" d="M28.746,16.939,16.939,28.746" transform="translate(81.872 81.872)"
+        fill="none" stroke="#a8c4d3" stroke-linecap="round" stroke-linejoin="round"
+        stroke-width="6" />
+    <path id="Path_10677" d="M16.939,16.939,28.746,28.746" transform="translate(81.872 81.872)"
+        fill="none" stroke="#a8c4d3" stroke-linecap="round" stroke-linejoin="round"
+        stroke-width="6" />
+    <line id="Line_70" x2="29.167" transform="translate(46.667 70)" fill="none" stroke="#a8c4d3"
+        stroke-linecap="round" stroke-linejoin="round" stroke-width="6" />
+    <path id="Path_10678" d="M0,0H140V140H0Z" fill="none" />
+</svg>

@@ -4,7 +4,7 @@ class EmployeeModel extends Employee {
   EmployeeModel({
     required int id,
     required String employeeName,
-    required double employeeSalary,
+    required int employeeSalary,
     required int employeeAge,
   }) : super(
           id: id,
@@ -19,7 +19,7 @@ class EmployeeModel extends Employee {
     return EmployeeModel(
       id: json['id'] ?? 0,
       employeeName: json['employee_name'] ?? '',
-      employeeSalary: json['employee_salary'] ?? 0.0,
+      employeeSalary: json['employee_salary'] ?? 0,
       employeeAge: json['employee_age'] ?? 0,
     );
   }
