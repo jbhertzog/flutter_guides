@@ -6,5 +6,8 @@
   "age": "年",
   "salary": "給料",
   "search": "サーチ",
-  "no_results": "結果がありません"
+  "no_results": "結果がありません",
+  "error": "エラー",
+  "data_retrieval_failure": "データ取得の失敗",
+  "retry": "リトライ"
 }

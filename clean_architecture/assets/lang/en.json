@@ -6,5 +6,8 @@
   "age": "Age",
   "salary": "Salary",
   "search": "Search",
-  "no_results": "No Results"
+  "no_results": "No Results",
+  "error": "Error",
+  "data_retrieval_failure": "Data retrieval failure",
+  "retry": "Retry"
 }

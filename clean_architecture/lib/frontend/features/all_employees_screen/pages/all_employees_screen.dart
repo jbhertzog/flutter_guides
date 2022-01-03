@@ -40,8 +40,6 @@ class _AllEmployeesScreenState extends State<AllEmployeesScreen> {
 
   @override
   Widget build(BuildContext context) {
-    double screenHeightTotal = MediaQuery.of(context).size.height;
-    double screenWidthTotal = MediaQuery.of(context).size.width;
     return BlocProvider<EmployeeBloc>(
       create: (_) => _employeeBloc,
       child: Scaffold(
