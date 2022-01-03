@@ -3,7 +3,7 @@ import 'package:clean_architecture/frontend/features/all_employees_screen/widget
 import 'package:clean_architecture/frontend/features/all_employees_screen/widgets/specific_employee/employee_details/employee_salary.dart';
 import 'package:clean_architecture/frontend/features/styling/app_colors.dart';
 import 'package:clean_architecture/logic/domain/entities/employee.dart';
-import 'package:clean_architecture/logic/langauge/app_locale.dart';
+import 'package:clean_architecture/logic/language/app_locale.dart';
 import 'package:dismissible_page/dismissible_page.dart';
 import 'package:flutter/material.dart';
 

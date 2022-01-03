@@ -4,7 +4,7 @@ import 'dart:async';
 
 import 'package:clean_architecture/frontend/navigation/route_generator.dart';
 import 'package:clean_architecture/logic/core/dependency_injection/injection_container.dart';
-import 'package:clean_architecture/logic/langauge/app_locale.dart';
+import 'package:clean_architecture/logic/language/app_locale.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';

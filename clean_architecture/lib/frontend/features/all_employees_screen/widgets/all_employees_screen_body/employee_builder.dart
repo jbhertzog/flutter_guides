@@ -1,7 +1,7 @@
 import 'package:clean_architecture/frontend/features/all_employees_screen/widgets/all_employees_screen_body/employee_list_item.dart';
 import 'package:clean_architecture/frontend/features/styling/app_colors.dart';
 import 'package:clean_architecture/logic/domain/entities/employee.dart';
-import 'package:clean_architecture/logic/langauge/app_locale.dart';
+import 'package:clean_architecture/logic/language/app_locale.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 

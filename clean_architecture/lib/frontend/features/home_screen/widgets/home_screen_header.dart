@@ -1,4 +1,4 @@
-import 'package:clean_architecture/logic/langauge/app_locale.dart';
+import 'package:clean_architecture/logic/language/app_locale.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreenHeader extends StatelessWidget {

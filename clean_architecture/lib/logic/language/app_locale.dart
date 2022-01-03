@@ -30,7 +30,6 @@ class AppLocale extends ChangeNotifier {
   Future<void> loadDeviceLocale() async {
     try {
       String jsonString = await rootBundle.loadString('$_path${_deviceLocale.languageCode}.json');
-
       Map<String, dynamic> jsonMap = json.decode(jsonString);
       _localizedStrings = jsonMap.map((key, value) {
         return MapEntry(key, value.toString());
