@@ -6,12 +6,14 @@ A possible solution to implement a clean architecture design using BLoC for stat
 * Flutter: Version 2.5.3 
 * Laptop: Macbook M1 Pro 
 * Test Device: Simulator (iPhone 13 Pro Max) running iOS 15.2
+
 ---
 ## Core Concepts
 * Clean Architecture Design
 * BLoC (Version 7 - This app will be updated once I have updated my guide on BLoC as there are breaking changes with version 8.x)
 * JSON Mapping & Model Creation (including null safety)
 * Internationalization (Currently only English and Japanese)
+
 ---
 ## Project Structure
 This project makes use of the BLoC logic in the same project - in actual practice, this would most likely be in
@@ -21,12 +23,14 @@ ease of use when browsing and making changes, I have both the BLoC & UI componen
 folders, namely:
 1) logic
 2) frontend
+
 ---
 ## Logic Folder
 The logic folder follows the clean architecture design, as discussed in the PDF guide.
 
 Due to the simplicity of this sample app, there are some concepts that are not implemented that do not have anything directly
 to do with clean architecture (such as a lifecycle manager, websocket manager, etc.)
+
 ---
 ## Frontend Folder
 The frontend folder shows what I believe is a good structure for breaking up your widgets into the correct .dart files and folders.
