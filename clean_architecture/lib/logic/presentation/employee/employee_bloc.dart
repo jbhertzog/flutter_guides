@@ -16,12 +16,6 @@ class EmployeeBloc extends Bloc<EmployeeEvents, EmployeeState> {
 
   //region OVERRIDE BLOC FUNCTIONS
   @override
-  void onTransition(Transition<EmployeeEvents, EmployeeState> transition) {
-    super.onTransition(transition);
-    print('_bloc_$runtimeType $transition');
-  }
-
-  @override
   void onChange(Change<EmployeeState> change) {
     super.onChange(change);
     print('$runtimeType State Change - $change');
@@ -56,13 +50,6 @@ class EmployeeBloc extends Bloc<EmployeeEvents, EmployeeState> {
           return RetrievingEmployeesFromServerSuccess(state);
         },
       );
-    } else if (event is SearchForEmployees) {
-      yield EmployeeIgnoreState(state);
-      yield EmployeeSearchUpdated(state);
-    } else if (event is SetSpecificEmployee) {
-      yield EmployeeIgnoreState(state);
-      state.selectedEmployee = event.selectedEmployee;
-      yield SelectedEmployeeSet(state);
     }
   }
 }

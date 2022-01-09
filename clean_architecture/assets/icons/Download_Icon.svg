@@ -1,0 +1,14 @@
+<svg id="download-save-upload.2" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+    viewBox="0 0 28 28">
+    <g id="Group_13101" transform="translate(3.5 3.5)">
+        <path id="Path_13229" d="M12,19.333V3" transform="translate(-1.5 -3)" fill="none"
+            stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+        <path id="Path_13230" d="M24,17a4.667,4.667,0,0,1-4.667,4.667H7.667A4.667,4.667,0,0,1,3,17"
+            transform="translate(-3 -0.667)" fill="none" stroke="#fff" stroke-linecap="round"
+            stroke-linejoin="round" stroke-width="1.5" />
+        <path id="Path_13231" d="M18.667,12l-5.834,5.834L7,12" transform="translate(-2.333 -1.5)"
+            fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="1.5" />
+    </g>
+    <path id="Path_13232" d="M0,0H28V28H0Z" fill="none" />
+</svg>

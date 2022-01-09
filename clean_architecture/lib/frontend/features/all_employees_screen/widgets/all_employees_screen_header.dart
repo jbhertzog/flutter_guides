@@ -29,17 +29,11 @@ class AllEmployeesScreenHeader extends StatelessWidget {
         ),
         Padding(
           padding: const EdgeInsets.only(left: 16, right: 16),
-          child: Hero(
-            tag: "EmployeesTextHeroTag",
-            child: Material(
-              color: Colors.transparent,
-              child: Text(
-                appLocale.translate('employees'),
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 20,
-                ),
-              ),
+          child: Text(
+            appLocale.translate('employees'),
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 20,
             ),
           ),
         ),

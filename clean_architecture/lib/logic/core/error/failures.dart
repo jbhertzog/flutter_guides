@@ -9,3 +9,10 @@ class ServerFailure extends Failure {
     return "Server Error";
   }
 }
+
+class CacheFailure extends Failure {
+  @override
+  String toString() {
+    return "Local Storage Failure.";
+  }
+}

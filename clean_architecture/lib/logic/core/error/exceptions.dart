@@ -1,1 +1,1 @@
-class InvalidModelException implements Exception {}
+class CacheException implements Exception {}

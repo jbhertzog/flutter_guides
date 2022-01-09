@@ -1,4 +1,4 @@
 NOTE:
 
 The [Server] folder only has one sub-folder - network_requests - but normally this is where your folders for sockets,
-custom session managers, etc. would also reside.
+custom session managers, lifecycle managers, etc. would also reside.

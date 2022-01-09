@@ -1,7 +1,7 @@
 import 'package:clean_architecture/frontend/features/all_employees_screen/widgets/specific_employee/specific_employee_details.dart';
 import 'package:clean_architecture/frontend/features/styling/app_colors.dart';
 import 'package:clean_architecture/logic/domain/entities/employee.dart';
-import 'package:dismissible_page/src/dismissible_extensions.dart';
+import 'package:dismissible_page/dismissible_page.dart';
 import 'package:flutter/material.dart';
 
 class EmployeeListItem extends StatelessWidget {

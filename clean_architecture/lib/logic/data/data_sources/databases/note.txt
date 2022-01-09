@@ -1,4 +1,0 @@
-NOTE:
-
-Due to the simplicity of this app, there are no actual databases implemented (Hive, Sembast, SQFLite, etc.), but if
-they were, they would be in here.

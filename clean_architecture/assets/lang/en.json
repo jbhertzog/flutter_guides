@@ -9,5 +9,10 @@
   "no_results": "No Results",
   "error": "Error",
   "data_retrieval_failure": "Data retrieval failure",
-  "retry": "Retry"
+  "retry": "Retry",
+  "albums": "Albums",
+  "web": "Web",
+  "downloaded": "Downloaded",
+  "save": "Save",
+  "delete": "Delete"
 }

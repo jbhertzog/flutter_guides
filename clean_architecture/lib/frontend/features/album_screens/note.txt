@@ -1,0 +1,7 @@
+Note:
+
+While these 3 screens are in the same folder under the main features folder, they could be split up into 3 separate
+folders if you wanted to.
+
+The only reason I am grouping them, is because there are some widgets that can be reused between these 3 screens, so it
+made more sense for me to group them here.

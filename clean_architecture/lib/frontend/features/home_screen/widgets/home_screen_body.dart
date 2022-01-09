@@ -23,17 +23,34 @@ class HomeScreenBody extends StatelessWidget {
               color: AppColors.darkBlue,
             ),
             child: Center(
-              child: Hero(
-                tag: "EmployeesTextHeroTag",
-                child: Material(
-                  color: Colors.transparent,
-                  child: Text(
-                    appLocale.translate('employees'),
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontSize: 16,
-                    ),
-                  ),
+              child: Text(
+                appLocale.translate('employees'),
+                style: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 16,
+                ),
+              ),
+            ),
+          ),
+        ),
+        const SizedBox(height: 16),
+        GestureDetector(
+          onTap: () {
+            Navigator.pushNamed(context, '/albumLandingScreen');
+          },
+          child: Container(
+            height: 62,
+            width: double.infinity,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(16),
+              color: AppColors.darkBlue,
+            ),
+            child: Center(
+              child: Text(
+                appLocale.translate('albums'),
+                style: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 16,
                 ),
               ),
             ),
