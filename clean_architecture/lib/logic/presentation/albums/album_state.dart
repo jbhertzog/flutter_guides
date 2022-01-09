@@ -22,8 +22,8 @@ class AlbumDefault extends AlbumState {
 class AlbumIgnoreState extends AlbumState {
   AlbumIgnoreState(AlbumState state)
       : super(
-          albumsFromServer: [],
-          albumsFromLocalStorage: [],
+          albumsFromServer: state.albumsFromServer,
+          albumsFromLocalStorage: state.albumsFromLocalStorage,
         );
 }
 
@@ -31,8 +31,8 @@ class AlbumIgnoreState extends AlbumState {
 class RetrievingAlbumsFromServer extends AlbumState {
   RetrievingAlbumsFromServer(AlbumState state)
       : super(
-          albumsFromServer: [],
-          albumsFromLocalStorage: [],
+          albumsFromServer: state.albumsFromServer,
+          albumsFromLocalStorage: state.albumsFromLocalStorage,
         );
 }
 
@@ -43,16 +43,16 @@ class RetrievingAlbumsFromServerFailure extends AlbumState {
 
   RetrievingAlbumsFromServerFailure(AlbumState state, {this.errorMessage})
       : super(
-          albumsFromServer: [],
-          albumsFromLocalStorage: [],
+          albumsFromServer: state.albumsFromServer,
+          albumsFromLocalStorage: state.albumsFromLocalStorage,
         );
 }
 
 class RetrievingAlbumsFromServerSuccess extends AlbumState {
   RetrievingAlbumsFromServerSuccess(AlbumState state)
       : super(
-          albumsFromServer: [],
-          albumsFromLocalStorage: [],
+          albumsFromServer: state.albumsFromServer,
+          albumsFromLocalStorage: state.albumsFromLocalStorage,
         );
 }
 //endregion
@@ -61,24 +61,24 @@ class RetrievingAlbumsFromServerSuccess extends AlbumState {
 class RetrievingAlbumsFromDeviceStorage extends AlbumState {
   RetrievingAlbumsFromDeviceStorage(AlbumState state)
       : super(
-          albumsFromServer: [],
-          albumsFromLocalStorage: [],
+          albumsFromServer: state.albumsFromServer,
+          albumsFromLocalStorage: state.albumsFromLocalStorage,
         );
 }
 
 class RetrievingAlbumsFromDeviceStorageFailure extends AlbumState {
   RetrievingAlbumsFromDeviceStorageFailure(AlbumState state)
       : super(
-          albumsFromServer: [],
-          albumsFromLocalStorage: [],
+          albumsFromServer: state.albumsFromServer,
+          albumsFromLocalStorage: state.albumsFromLocalStorage,
         );
 }
 
 class RetrievingAlbumsFromDeviceStorageSuccess extends AlbumState {
   RetrievingAlbumsFromDeviceStorageSuccess(AlbumState state)
       : super(
-          albumsFromServer: [],
-          albumsFromLocalStorage: [],
+          albumsFromServer: state.albumsFromServer,
+          albumsFromLocalStorage: state.albumsFromLocalStorage,
         );
 }
 //endregion
@@ -89,24 +89,24 @@ class SavingAlbumToDeviceStorage extends AlbumState {
 
   SavingAlbumToDeviceStorage(AlbumState state, this.albumBeingSaved)
       : super(
-          albumsFromServer: [],
-          albumsFromLocalStorage: [],
+          albumsFromServer: state.albumsFromServer,
+          albumsFromLocalStorage: state.albumsFromLocalStorage,
         );
 }
 
 class SavingAlbumToDeviceStorageFailure extends AlbumState {
   SavingAlbumToDeviceStorageFailure(AlbumState state)
       : super(
-          albumsFromServer: [],
-          albumsFromLocalStorage: [],
+          albumsFromServer: state.albumsFromServer,
+          albumsFromLocalStorage: state.albumsFromLocalStorage,
         );
 }
 
 class SavingAlbumToDeviceStorageSuccess extends AlbumState {
   SavingAlbumToDeviceStorageSuccess(AlbumState state)
       : super(
-          albumsFromServer: [],
-          albumsFromLocalStorage: [],
+          albumsFromServer: state.albumsFromServer,
+          albumsFromLocalStorage: state.albumsFromLocalStorage,
         );
 }
 //endregion
@@ -117,24 +117,24 @@ class DeletingAlbumFromDeviceStorage extends AlbumState {
 
   DeletingAlbumFromDeviceStorage(AlbumState state, this.albumBeingDeleted)
       : super(
-          albumsFromServer: [],
-          albumsFromLocalStorage: [],
+          albumsFromServer: state.albumsFromServer,
+          albumsFromLocalStorage: state.albumsFromLocalStorage,
         );
 }
 
 class DeletingAlbumFromDeviceStorageFailure extends AlbumState {
   DeletingAlbumFromDeviceStorageFailure(AlbumState state)
       : super(
-          albumsFromServer: [],
-          albumsFromLocalStorage: [],
+          albumsFromServer: state.albumsFromServer,
+          albumsFromLocalStorage: state.albumsFromLocalStorage,
         );
 }
 
 class DeletingAlbumFromDeviceStorageSuccess extends AlbumState {
   DeletingAlbumFromDeviceStorageSuccess(AlbumState state)
       : super(
-          albumsFromServer: [],
-          albumsFromLocalStorage: [],
+          albumsFromServer: state.albumsFromServer,
+          albumsFromLocalStorage: state.albumsFromLocalStorage,
         );
 }
 //endregion

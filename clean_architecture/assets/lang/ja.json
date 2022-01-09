@@ -9,5 +9,10 @@
   "no_results": "結果がありません",
   "error": "エラー",
   "data_retrieval_failure": "データ取得の失敗",
-  "retry": "リトライ"
+  "retry": "リトライ",
+  "albums": "スタジオアルバム",
+  "web": "インターネット",
+  "downloaded": "ダウンロード",
+  "save": "保存する",
+  "delete": "削除する"
 }
