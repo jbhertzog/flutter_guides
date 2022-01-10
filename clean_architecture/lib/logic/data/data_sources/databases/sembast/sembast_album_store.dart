@@ -29,7 +29,7 @@ class SembastAlbumStore implements AlbumStore {
         final sqfFactory = getDatabaseFactorySqflite(sqflite.databaseFactory);
 
         _albumDb = await sqfFactory.openDatabase(dbPath, version: 1, mode: DatabaseMode.neverFails);
-        _albumStore = stringMapStoreFactory.store('OrderingStore');
+        _albumStore = stringMapStoreFactory.store('AlbumStore');
         print("-- AlbumStore successfully created --");
       } else {
         print("-- AlbumStore already created --");
@@ -37,19 +37,6 @@ class SembastAlbumStore implements AlbumStore {
     } catch (ex, st) {
       print('SembastAlbumStore exception!\nException: $ex\nStackTrace: $st');
       _albumDb = null;
-    }
-  }
-
-  Future<void> _closeDb() async {
-    try {
-      if (_albumDb != null) {
-        await _albumDb!.close();
-        _albumDb = null;
-        _albumStore = null;
-      }
-    } catch (ex, st) {
-      print('SembastAlbumStore exception!\nException: $ex\nStackTrace: $st');
-      throw CacheException();
     }
   }
 
@@ -72,8 +59,8 @@ class SembastAlbumStore implements AlbumStore {
   Future<bool> deleteAlbum(String id) async {
     try {
       if (_albumDb != null && _albumStore != null) {
-        var orderingItemRecord = _albumStore!.record(id);
-        await orderingItemRecord.delete(_albumDb!);
+        var _albumRecord = _albumStore!.record(id);
+        await _albumRecord.delete(_albumDb!);
       }
       return true;
     } catch (ex, st) {

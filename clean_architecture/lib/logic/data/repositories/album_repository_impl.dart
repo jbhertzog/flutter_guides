@@ -36,7 +36,7 @@ class AlbumRepositoryImpl extends AlbumRepository {
   }
 
   @override
-  Future<Either<Failure, bool>> deleteOrderingItemFromDb(String id) async {
+  Future<Either<Failure, bool>> deleteAlbumFromDb(String id) async {
     try {
       var wasDeleted = await _albumStore.deleteAlbum(id);
       return Right(wasDeleted);

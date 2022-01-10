@@ -11,7 +11,6 @@ abstract class AlbumStore {
   /// If none are stored, it will just return an empty list instead of null
   Future<List<Album>> getAllAlbums();
 
-  /// Deletes all the waiter related data from the database
-  /// Called when the device gets reset.
+  /// Deletes all the Album related data from the database
   Future<void> clearDatabase();
 }

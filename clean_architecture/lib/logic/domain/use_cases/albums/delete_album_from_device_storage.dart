@@ -12,7 +12,7 @@ class DeleteAlbumFromDeviceStorage implements UseCase<bool, DeleteAlbumFromDevic
 
   @override
   Future<Either<Failure, bool>> call(DeleteAlbumFromDeviceStorageParams params) async {
-    var failureOrWasDeleted = await _albumRepository.deleteOrderingItemFromDb(params.albumId.toString());
+    var failureOrWasDeleted = await _albumRepository.deleteAlbumFromDb(params.albumId.toString());
     return failureOrWasDeleted.fold(
       (failure) => Left(failure),
       (wasDeleted) => Right(wasDeleted),

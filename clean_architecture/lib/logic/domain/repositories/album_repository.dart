@@ -7,7 +7,7 @@ abstract class AlbumRepository {
 
   Future<Either<Failure, bool>> saveAlbumToDeviceStorage(Album album);
 
-  Future<Either<Failure, bool>> deleteOrderingItemFromDb(String id);
+  Future<Either<Failure, bool>> deleteAlbumFromDb(String id);
 
   Future<Either<Failure, List<Album>>> getAlbumsFromDeviceStorage();
 
