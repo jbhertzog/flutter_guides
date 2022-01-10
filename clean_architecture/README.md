@@ -54,6 +54,10 @@ Some parts of the _frontend_ aren't fully implemented (i.e. the images for album
 but just displayed based on index - this is just to make the screen not look too bland. Ideally the albums would each have their
 own coverArtUrl as a String property on the entity/model)
 
+Note: The _Employee_ part of the app has a high failure rate when hitting the API endpoint.
+This has the fortunate side effect of being able to see how error messages can be displayed to users,
+but if the call does fail, just keep pressing the retry button until it succeeds.
+
 ---
 
 Creator & Owner - [James Hertzog](https://github.com/jbhertzog).
